@@ -6,5 +6,5 @@ from django.db import models
 class Land(models.Model):
     name = models.CharField(max_length=50)
     address = models.CharField(max_length=100)
-    area = models.PositiveIntegerField()
+    squaremeters = models.PositiveIntegerField()
     email = models.EmailField(max_length=50)
