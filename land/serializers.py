@@ -21,7 +21,7 @@ class LandSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Land
-        fields = ['name', 'address', 'squaremeters', 'email']
+        fields = ['id', 'name', 'address', 'squaremeters', 'email']
         extra_kwargs = {
             'name': {
                 'required': True,

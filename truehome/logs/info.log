@@ -1,0 +1,950 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2027
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 5191
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/suchil/workspace/truehome_backend/truehome/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/suchil/workspace/truehome_backend/truehome/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/token
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/token HTTP/1.1" 500 67621
+Internal Server Error: /api/token
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/token HTTP/1.1" 500 67243
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+/home/suchil/workspace/truehome_backend/truehome/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 58
+/home/suchil/workspace/truehome_backend/truehome/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+Not Found: /token
+"OPTIONS /token HTTP/1.1" 404 2340
+Not Found: /token
+"OPTIONS /token HTTP/1.1" 404 2340
+Watching for file changes with StatReloader
+/home/suchil/workspace/truehome_backend/truehome/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/suchil/workspace/truehome_backend/truehome/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /token HTTP/1.1" 200 0
+Not Found: /token
+"POST /token HTTP/1.1" 404 2337
+"OPTIONS /api/token HTTP/1.1" 200 0
+Internal Server Error: /api/token
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/token HTTP/1.1" 500 68479
+"OPTIONS /api/token/ HTTP/1.1" 200 0
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+Watching for file changes with StatReloader
+"POST /api/token/ HTTP/1.1" 200 438
+"OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+"POST /api/token/ HTTP/1.1" 200 438
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 40
+Unauthorized: /api/token/
+"POST /api/token/ HTTP/1.1" 401 63
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Unauthorized: /api/token/
+"POST /api/token/ HTTP/1.1" 401 63
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 79
+Unauthorized: /api/token/
+"POST /api/token/ HTTP/1.1" 401 63
+Unauthorized: /api/token/
+"POST /api/token/ HTTP/1.1" 401 63
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 58
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"OPTIONS /api/lands HTTP/1.1" 200 0
+Internal Server Error: /api/lands
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/lands/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/lands HTTP/1.1" 500 68596
+Internal Server Error: /api/lands
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/lands/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/lands HTTP/1.1" 500 68596
+Internal Server Error: /api/lands
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/lands/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/lands HTTP/1.1" 500 68596
+Internal Server Error: /api/lands
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/lands/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/lands HTTP/1.1" 500 68596
+Internal Server Error: /api/lands
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/lands/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/lands HTTP/1.1" 500 68461
+Internal Server Error: /api/lands
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/lands/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/lands HTTP/1.1" 500 68596
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Internal Server Error: /api/lands
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/lands/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/lands HTTP/1.1" 500 68461
+"GET /api/lands HTTP/1.1" 301 0
+"OPTIONS /api/lands/ HTTP/1.1" 200 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"POST /api/token/ HTTP/1.1" 200 438
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"OPTIONS /api/api/token/refresh HTTP/1.1" 200 0
+Not Found: /api/api/token/refresh
+"POST /api/api/token/refresh HTTP/1.1" 404 3748
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"OPTIONS /api/token/refresh HTTP/1.1" 200 0
+Internal Server Error: /api/token/refresh
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/token/refresh/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/token/refresh HTTP/1.1" 500 68476
+"POST /api/token/ HTTP/1.1" 200 438
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands/ HTTP/1.1" 200 58
+"GET /api/lands/ HTTP/1.1" 200 58
+"GET /api/lands/ HTTP/1.1" 200 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 58
+"GET /api/lands/ HTTP/1.1" 200 58
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 58
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 58
+/home/suchil/workspace/truehome_backend/land/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 65
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+"GET /api/lands/ HTTP/1.1" 200 65
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"POST /api/lands/ HTTP/1.1" 201 100
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands/ HTTP/1.1" 200 166
+"OPTIONS /api/lands/ HTTP/1.1" 200 0
+"GET /api/lands/ HTTP/1.1" 200 166
+"OPTIONS /api/lands/ HTTP/1.1" 200 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 109
+"GET /api/lands/ HTTP/1.1" 200 166
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 109
+"GET /api/lands/ HTTP/1.1" 200 166
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 166
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+"GET /api/lands/ HTTP/1.1" 200 166
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+"GET /api/lands/ HTTP/1.1" 200 166
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+"GET /api/lands/ HTTP/1.1" 200 166
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 155
+"GET /api/lands/ HTTP/1.1" 200 166
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 109
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+"OPTIONS /api/lands/undefined HTTP/1.1" 200 0
+Internal Server Error: /api/lands/undefined
+Traceback (most recent call last):
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/suchil/.virtualenvs/truehome/lib/python3.7/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/lands/undefined/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"PUT /api/lands/undefined HTTP/1.1" 500 68851
+"GET /api/lands/ HTTP/1.1" 200 166
+"OPTIONS /api/lands/undefined/ HTTP/1.1" 200 0
+Not Found: /api/lands/undefined/
+"PUT /api/lands/undefined/ HTTP/1.1" 404 23
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 166
+Not Found: /api/lands/undefined/
+"PUT /api/lands/undefined/ HTTP/1.1" 404 23
+"GET /api/lands/ HTTP/1.1" 200 166
+"OPTIONS /api/lands/1/ HTTP/1.1" 200 0
+Bad Request: /api/lands/1/
+"PUT /api/lands/1/ HTTP/1.1" 400 109
+Unauthorized: /api/lands/1/
+"PUT /api/lands/1/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"PUT /api/lands/1/ HTTP/1.1" 200 90
+"GET /api/lands/ HTTP/1.1" 200 193
+"OPTIONS /api/lands/2/ HTTP/1.1" 200 0
+"PUT /api/lands/2/ HTTP/1.1" 200 101
+"GET /api/lands/ HTTP/1.1" 200 194
+"GET /api/lands/ HTTP/1.1" 200 194
+Unauthorized: /api/lands/
+"POST /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/
+"POST /api/lands/ HTTP/1.1" 400 55
+"POST /api/lands/ HTTP/1.1" 201 83
+"GET /api/lands/ HTTP/1.1" 200 278
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 278
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 278
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 45
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 45
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 45
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 45
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 45
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 278
+Bad Request: /api/token/
+"POST /api/token/ HTTP/1.1" 400 89
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 278
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 278
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 278
+"OPTIONS /api/lands/3 HTTP/1.1" 200 0
+"DELETE /api/lands/3 HTTP/1.1" 301 0
+"OPTIONS /api/lands/3/ HTTP/1.1" 200 0
+"DELETE /api/lands/3/ HTTP/1.1" 204 0
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 194
+"GET /api/lands/ HTTP/1.1" 200 194
+"GET /api/lands/ HTTP/1.1" 200 194
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 194
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 194
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 194
+"PUT /api/lands/1/ HTTP/1.1" 200 91
+"GET /api/lands/ HTTP/1.1" 200 195
+"GET /api/lands HTTP/1.1" 301 0
+"GET /api/lands/ HTTP/1.1" 200 195
+Unauthorized: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 155
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 155
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 155
+"GET /api/lands/ HTTP/1.1" 200 195
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 195
+"GET /api/lands/ HTTP/1.1" 200 195
+"GET /api/lands/ HTTP/1.1" 200 195
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 195
+"PUT /api/lands/2/ HTTP/1.1" 200 103
+"GET /api/lands/ HTTP/1.1" 200 197
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 35
+Unauthorized: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 35
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 197
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 35
+Unauthorized: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 155
+Bad Request: /api/lands/2/
+"PUT /api/lands/2/ HTTP/1.1" 400 155
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 197
+"GET /api/lands HTTP/1.1" 301 0
+Unauthorized: /api/lands/
+"GET /api/lands/ HTTP/1.1" 401 183
+"POST /api/token/refresh/ HTTP/1.1" 200 218
+"GET /api/lands/ HTTP/1.1" 200 197
+"POST /api/token/ HTTP/1.1" 200 438
+"GET /api/lands/ HTTP/1.1" 200 197
